@@ -18,7 +18,7 @@ Make sure to put your files in the correct week and then commit and push to your
 Note: Most assignments will require a  write-up in markdown (`.md`) detailing your submission. 
 
 ## Using Markdown
-`.md` stands for Markdown and it is a format that you will need to submit write-up for assignments with. Here is a helpful link to the GitHub markdown tips: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+`.md` stands for Markdown and it is a format that you will need to use for write-up assignments. Here is a helpful link to the GitHub markdown tips: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
 ## What about group assignments?
 Do not submit your group work here. Group assignments will be submitted on your own separate repository.
