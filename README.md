@@ -8,6 +8,7 @@
 > `git pull upstream main`
 
 Note: Make sure you run the command in the folder for this repo or it will not work.
+In VS Code go to `Terminal` -> `New Terminal` -> Run `git pull upstream main`.
 
 ## What is this repository for?
 Use this repository to submit individual lab assignments. Assignments should be submitted in the folders corresponding to the week.
