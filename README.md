@@ -1,9 +1,10 @@
 # 21S-ASIAAM-191A-Assignments
 
-## Fork and then clone this repo
+## Getting started: fork and then clone this repo
  Make sure you have forked and cloned this repo to your GitHub account.
  
  Note: You only need to do this once!
+
 ## Run the following to get new assignments every week
 > `git pull upstream main`
 

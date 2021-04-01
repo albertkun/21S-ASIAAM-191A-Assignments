@@ -9,3 +9,4 @@
    -  Why you used these fields
    -  What problems could the data set have
 4. Commit both `lab1.geojson` and `lab1.md` to your repository and push it to GitHub.
+5. Fill out this form so I can associate you with your GitHub repo: [https://forms.gle/J8kebeHEd5xbGaiRA](https://forms.gle/J8kebeHEd5xbGaiRA)
