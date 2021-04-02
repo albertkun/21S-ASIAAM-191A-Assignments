@@ -6,7 +6,9 @@
  Note: You only need to do this once!
 
 ## Set the correct upstream
-The upstream should be added to your clone repository by going to the `Terminal` -> `New Terminal` -> Run the following command:
+The upstream should be added to your clone repository by going to the `Terminal` -> `New Terminal` 
+
+In the terminal, run the following command:
 `git remote add upstream https://github.com/albertkun/21S-ASIAAM-191A-Assignments.git`
 
 You can check your remote by running
