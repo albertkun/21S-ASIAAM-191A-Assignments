@@ -1,5 +1,5 @@
 # 21S-ASIAAM-191A-Assignments
-
+This is the Lab Assignment repo for https://github.com/albertkun/21S-ASIAAM-191A/.
 ## Getting started: fork and then clone this repo
  Make sure you have [forked](https://github.com/albertkun/21S-ASIAAM-191A/blob/732730b37764dd32b2bf5087af3c9e44e76bea02/Guides/git_forking.md) and [cloned](https://github.com/albertkun/21S-ASIAAM-191A/blob/732730b37764dd32b2bf5087af3c9e44e76bea02/Guides/git_cloning.md) this repo to your GitHub account.
  
