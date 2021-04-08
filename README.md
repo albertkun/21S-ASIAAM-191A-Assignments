@@ -1,14 +1,22 @@
 # 21S-ASIAAM-191A-Assignments
-
+This is the Lab Assignment repo for https://github.com/albertkun/21S-ASIAAM-191A/.
 ## Getting started: fork and then clone this repo
- Make sure you have forked and cloned this repo to your GitHub account.
+ Make sure you have [forked](https://github.com/albertkun/21S-ASIAAM-191A/blob/732730b37764dd32b2bf5087af3c9e44e76bea02/Guides/git_forking.md) and [cloned](https://github.com/albertkun/21S-ASIAAM-191A/blob/732730b37764dd32b2bf5087af3c9e44e76bea02/Guides/git_cloning.md) this repo to your GitHub account.
  
  Note: You only need to do this once!
 
-## Run the following to get new assignments every week
-> `git pull upstream main`
+## Set the correct upstream
+The upstream should be added to your clone repository by going to the `Terminal` -> `New Terminal` 
 
-Note: Make sure you run the command in the folder for this repo or it will not work.
+In the terminal, run the following command:
+`git remote add upstream https://github.com/albertkun/21S-ASIAAM-191A-Assignments.git`
+
+You can check your remote by running
+`git remote -v`
+
+Note: Make sure you run these command in the folder for you cloned this repo in or it will not work. You may need `cd THE_FOLDER_YOU_CLONED`".
+
+## Get new assignments
 In VS Code go to `Terminal` -> `New Terminal` -> Run `git pull upstream main`.
 
 ## What is this repository for?
