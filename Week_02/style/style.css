@@ -1,16 +1,22 @@
 html, body {
     padding: 5px;
- }
+    height: 100%;
+}
 
- body {
+body {
      display: grid;
      grid-template-rows: .1fr .30fr .60fr .05fr;
      grid-template-columns: 1fr;
      grid-template-areas: "header" "main" "map"  "footer";
      justify-content: center;
- }
-
- header {
+     background: linear-gradient(to bottom right, #ccff99 0%, #ccccff 100%);
+     height: 100%;
+}
+img {
+    max-width: 200px;
+    height: auto;
+}
+header {
     grid-area: header;
     display: grid;
     grid-template-columns: .2fr .6fr .2fr;
@@ -20,7 +26,7 @@ html, body {
 .main {
     display: grid;
     grid-area: main;
-    background-color: aqua;
+    background: linear-gradient(to bottom, #9999ff 0%, #ff66ff 100%);;
 }
 
 #map {
@@ -30,4 +36,25 @@ html, body {
 
 #footer {
     grid-area: footer;
+}
+
+p, a, ul, ol{
+    font-size: 20px;
+}
+
+.col {
+    float: left;
+    width: 25%;
+}
+.last-col{
+    float: left;
+    width: 25%;
+    display: grid;
+    position: relative;
+    padding-top: 190px;
+}
+
+ul {
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+    height: 20px;
 }
