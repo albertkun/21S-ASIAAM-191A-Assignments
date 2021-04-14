@@ -18,12 +18,10 @@ Your map portfolio must contain the following:
 
   - https://albertkun.github.io/21S-ASIAAM-191A-Assignments/Week_02/index.html
 
-
 ##### Extra Credit: (any of these) 
    - Add another `geojson` (it can be `lab1.geojson` or anything else) to a completely different HTML page not `index.html`. (Be sure to link it to your `index.html` and describe what you are showing)
    - Add some Leaflet features that we did not discuss in class.
    - Check out the [Extra](extra.md) or [Leaflet documentation](http://www.leafletjs.com/) and try something there.
-
 
 ### HTML Resources to help with your assignment:
 - Short MDN HTML Syntax (good recap): 
