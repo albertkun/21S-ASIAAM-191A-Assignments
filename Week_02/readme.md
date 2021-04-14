@@ -15,7 +15,8 @@ Your map portfolio must contain the following:
 - Set up GitHub pages for your repo
 
 ###  Submission: 
-- In the `week_02` folder, add a `readme.md` that links to your GitHub pages, it should look something like this:
+- Commit and publish your file to [GitHub pages](https://guides.github.com/features/pages/)
+- Find your `index.html` in the `Week_02` folder and copy the URL. It should look something like this:
 
   - https://albertkun.github.io/21S-ASIAAM-191A-Assignments/Week_02/index.html
 
