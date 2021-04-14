@@ -14,7 +14,7 @@ Your map portfolio must contain the following:
 - Use the [`<a>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) to add a link to 2 other web pages.
 - Set up GitHub pages for your repo
 
-#####  - Submission: In the `week_02` folder, add a `readme.md` that links to your GitHub pages, it should look something like this:
+#####  Submission: In the `week_02` folder, add a `readme.md` that links to your GitHub pages, it should look something like this:
 
   - https://albertkun.github.io/21S-ASIAAM-191A-Assignments/Week_02/index.html
 
