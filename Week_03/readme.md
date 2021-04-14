@@ -10,5 +10,7 @@ Functions are helpful for automating tasks and form the basis of the work we wil
 
 ## Submission
 - Commit your changes to GitHub
-- 
-- Paste your link in the Discussion forum for Lab Assignment #3
+- Commit and publish your file to [GitHub pages](https://guides.github.com/features/pages/)
+- Find your `index.html` in the `Week_03` folder and copy the URL. It should look something like this:
+  - https://albertkun.github.io/21S-ASIAAM-191A-Assignments/Week_03/index.html
+- Paste your link as a comment in the [Discussion forum for Lab Assignment #2](https://github.com/albertkun/21S-ASIAAM-191A/discussions/89)
