@@ -71,6 +71,7 @@ function appendLogo(lat, lng, title){
     .setLatLng([lat, lng])
     .setContent('<img src=' + url + ' width=100 height=100/><p>' + title +'</p>')
     .openOn(map);
+    map.flyTo([lat,lng])
 }
 
 addMarker(52.3,4.9, "1", "Eddie Van Halen");
