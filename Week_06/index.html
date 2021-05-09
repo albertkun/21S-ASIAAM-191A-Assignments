@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Leaflet Map</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="styles/style.css">
+
+        <!-- Leaflet's css-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+        <!-- Leaflet's JavaScript-->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    </head>
+    
+    <body>
+        <header><b>✈Where have you visited🌎?</b> <br> Submit your places 🏠 and click to see where others have visited🚩</header>
+        <div id="contents"></div>
+        <div id="map"></div>
+        <div id="survey">
+        <!-- this is the iframe for our survey -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe3otYCzmkMhwW-yr-r8PRqUeGIBKSuAr8IXHM0ebv9-SCWOw/viewform?embedded=true" width="640" height="435" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        <footer>Hi! I'm a FOOTER</footer>
+        <script src="js/init.js"></script>
+    </body>
+</html>

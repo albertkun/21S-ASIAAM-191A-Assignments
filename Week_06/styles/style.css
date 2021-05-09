@@ -1,0 +1,57 @@
+body{
+    display:grid;
+    grid-template-rows: .1fr .8fr .1fr;
+    grid-template-columns: .8fr 1fr .8fr; /* this creates an even two column layout*/
+    grid-template-areas: ". header ." "contentpanel mappanel survey" "footer . ."; /* this creates one row with map panel on the left and sidepanel on the right */
+}
+
+header{
+    grid-area: header;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+footer{
+    grid-area: footer;
+}
+
+#map{
+    height:90vh;
+    grid-area: mappanel;
+} 
+
+#survey {
+    grid-area: survey;
+    overflow: hidden;
+    /* 16:9 aspect ratio */
+    padding-top: 0%;
+    position: relative;
+}
+
+#survey iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+#contents{
+    /* this gives the name to our area */
+    grid-area: contentpanel;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+button{
+    background-color: rgb(241, 255, 248);
+    font-size: 1.5em;
+    border-radius: 5%;
+}
+
+button:hover{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
