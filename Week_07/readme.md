@@ -1,4 +1,4 @@
-# Lab Assignment #5 - Conditional Visual Importance
+# Lab Assignment #6 - Conditional Visual Importance
 ### Due 5/20
 Using your assignment from `week 06`, categorize your survey data to convey a message or theme about your map.
 
