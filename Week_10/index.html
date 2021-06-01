@@ -1,0 +1,70 @@
+<!-- FOR week10 group lab -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UCLA Emotional Wellness</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="styles/style.css">
+
+        <!-- Leaflet's css-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+
+        <!-- Leaflet's JavaScript-->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        
+        <!-- Chart script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+        <script src="js/L.Icon.Pulse.js"></script>
+        <link rel="stylesheet" href="styles/L.Icon.Pulse.css">
+
+    </head>
+    
+    <body>
+        <header><h1>Bruin Mental Health <br>Barometer</h1><h2>In the midst of the pandemic, UCLA students have never been more isolated from each other, making it difficult to gauge the wellness of the student body. In a time where it is so easy to feel disconnected, we want to ask: </h2><h3>Where are Bruins, and how are they doing?</h3></header>
+        <div id="map"></div>
+        <p>This map shows the current self-reported mental health of Bruins in different areas. Use the filters to positive, neutral, or negative stories, and click the markers to see additional details.</p>
+            
+        <div class="contents">
+            <div id="snapshot">
+                <b>Anonymous Stories</b>
+            </div>
+            <div class="right_contents">
+                <div class="right_nav">
+                    <a href='https://forms.gle/jq9P1FYtiWtF2kh28' target="_blank">Survey</a>
+                    <!-- show report -->
+                    <a href="#" id="reportButton">Report</a>
+                    
+                    <div id="reportModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <a href="#" onclick=loadChart(0)>Emotional Wellness</a>
+                            <a href="#" onclick=loadChart(1)>UCLA Resources Count</a>
+                            <canvas id="chartDiv"></canvas>
+                        </div>
+                    </div>
+                    <a href="#">About</a>
+                </div>
+                
+
+                <div id="resources">
+                    <b>UCLA Campus Mental Health Services</b>
+                    [need to add links]
+                    <p>Campus Assault Resources and Education (CARE)</p>
+                    <p>Collegiate Recovery Program</p>
+                    <p>Counseling and Psychological Services (CAPS)</p>
+                    <p>PEERS Friendship Program</p>
+                    <p>Resilience Peer Network</p>
+                    <p>UCLA Psychology Clinic</p>
+                    <p>WAZO Connect</p>
+                </div>
+            </div>
+        </div>
+        <!-- <canvas id="chartDiv" style="display: block"></canvas> -->
+        <!-- <div id="chartDiv" onclick=showChart()>CHART. Click ME!</div> -->
+        <script src="js/init.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,205 @@
+/*body{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-auto-rows: minmax(5px, auto);
+    grid-template-areas: "header header" "map map"
+}*/
+
+/* start of fonts + styles */
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: darkslategrey;
+    font-size: 60px;
+    text-align: left;
+    line-height: 135%;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(61, 61, 61);
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 175%;
+    font-weight: normal;
+    justify-content: left;
+    text-align: left;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(61, 61, 61);
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 175%;
+    font-weight: bolder;
+    justify-content: left;
+    text-align: left;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(61, 61, 61);
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 175%;
+    font-weight: normal;
+    justify-content: left;
+    text-align: left;
+}
+
+/* end of fonts + styles */
+
+header{
+    margin-top: 5%;
+    grid-area: header;
+}
+
+#map{
+    height: 50vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-area: mappanel;
+    z-index: 1;
+} 
+
+
+.contents{
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 1fr 1fr; 
+    grid-auto-rows: minmax(5px, auto);
+    grid-template-areas: "snapshot right_contents"
+}
+
+.survey {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.stats{
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#snapshot{
+    word-wrap: break-word;
+    height: 50vh;
+    overflow-y: auto;
+}
+
+/* customize scrollbar for snapshot */
+#snapshot::-webkit-scrollbar {
+    width: 20px;
+}
+#snapshot::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#snapshot::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+}
+#snapshot::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+}
+#snapshot::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+#snapshot::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+/* end scrollbar customized*/
+
+.stories{
+    border: 3px solid rgb(160, 160, 160);
+    padding: 5px;
+
+    
+    /* HANDLE LONG WORD THAT BREAKS DIV WIDTH */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    /* Non standard for webkit */
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.right_nav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.right_nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.right_nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 50; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 10px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    display: block;
+}
+
+.modal-content a{
+    color: black;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+canvas {
+    width:100% !important;
+    height:80% !important;
+}
